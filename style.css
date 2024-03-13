@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(12, 12, 28);
+    font-family:Arial, Helvetica, sans-serif
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    gap: 20px;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    width: auto;
+}
+
+img{
+    cursor: pointer;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.text{
+    margin-left: 65px;
+}
+
+.result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(12, 27, 50);
+    width: 100%;
+    gap: 100px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+}
+.popup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.pop{
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(4, 85, 99);
+    color: rgb(255, 255, 255);
+    width: auto;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+}
+
